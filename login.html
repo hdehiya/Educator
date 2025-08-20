@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Log In for Volunteers</title>
+    <link  media="screen" href="login/css/main.css" rel="stylesheet" />
+    <link  media="screen" href="login/css/animate.css" rel="stylesheet" />
+    <link rel="icon" type="image/png" href="login/logo/navicon.png" />
+</head>
+<body>
+<section>
+    <div class="connecte zoomIn animated">
+        <h3>EDUCATOR</h3>
+        <p>Be the reason for a child's smile and bright future<br> <br>
+        <img src="i1.jpg" style="width:345px;height:200px;"><br>
+        <a href="masterhome.html">Home</a></p>
+    </div>
+    <div class="connecte zoomIn animated">
+        <form  method="post"  action="login_process.jsp">
+            <br><br>
+            <table>
+                <tr><th class="in">
+                        <img src="login/logo/User.png" class="user-logo" id="user"/>
+                        <input name="email" type="text" required="required" placeholder="Email" value=""/>
+                    </th></tr>
+                <tr>
+                    <th class="in">
+                        <img src="login/logo/Lock.png" class="password-logo"/>
+                        <input type="password" name="pass"   required="required" placeholder="Password" value=""/>
+                    </th>
+                </tr>
+                <tr>
+                    <th id="checkbox">
+                        <input type="checkbox" name="remember_me" value="on"/>
+                        <label  for="remember_me" >Remember Me?</label>
+                    </th>
+                <tr>
+                    <th class="in bg_blue"><input name="valider" type="submit" value="Log In" class="connecte_button" /></th></tr>
+            </table>
+            <div class="lien-index">
+                <a href="reg.html">New User? Register Here</a>
+            </div>
+        </form >
+    </div>
+</section>
+<script type="text/javascript" src="js/jQuery/jquery-2.1.4.min.js"></script>
+<script type="text/javascript" src="js/main.js"></script>
+</body>
+</html>
